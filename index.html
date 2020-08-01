@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PASE Project</title>
+</head>
+<body>
+    <!-- the CSS styling in h1 is called an inline styling because the attributes of both Html and CSS are 
+    contained in one tag. NB: Both h1 and <style> below are the same but we use <style> tag because it is 
+    easily understandable -->
+    <h1 style = "color: greenyellow;">
+        My first Header
+    </h1>
+  
+    <!-- the coding below (.myfirstclass) basically helps to distinguish or select which section of the html 
+    you want to style and for what styling you want on the particular html. Once this is clear, you go to 
+    particular section (eg; h2) and code in as in h2 -->
+    <style>
+        h2 {color:blue;}
+        .myfirstclass {
+            color: red;
+            font-size: 18px;
+        }
+        #myfirstid {
+            color: aqua;
+            font-size: 60px;
+        }
+    </style>
+    <h1 class="myfirstclass">
+        Jesus is for everybody
+    </h1>
+    <!-- Similar to the Class styling, an id styling also instructs the html to be styled in a specific but 
+    only onto codes with the id. The difference between the class and id is class starts with a . and an id 
+    starts with a # as below. NB: It is not advisable to use id declarations in multiple coding since it is
+    supposed to be unique. It will work on CSS because CSS understands this instruction but this might be 
+    misunderstood by Javascript and thus will not work effectively. -->
+    <p id="myfirstid">
+        The Willows<br> 21 Runnymede Avenue<br> Accra-Adenta
+        <h2>Another one</h2>
+    </P>
+  
+</body>
+</html>
